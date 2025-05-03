@@ -1,6 +1,3 @@
-from pathlib import Path
-
-readme_content = """
 Robotic Pick and Place with Reinforcement Learning
 
 This repository contains code for training a robotic arm to perform a pick and place task in the PyBullet physics simulator using Reinforcement Learning (RL). The project utilizes the Stable Baselines3 library with the Proximal Policy Optimization (PPO) algorithm.
@@ -104,11 +101,3 @@ Potential Improvements
 ---
 
 Feel free to fork and modify this project to suit your own robotic learning experiments.
-"""
-
-# Save to a .txt file
-output_path = Path("/mnt/data/README.txt")
-output_path.write_text(readme_content.strip())
-
-output_path.name
-
